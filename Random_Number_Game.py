@@ -11,4 +11,8 @@ while(loop==True):
 		print("Incorrect, Your guess is too high. Try again...")
 	else:
 		print("Incorrect, Your guess is too low. Try again.")
+
+		#we're changing something
+	print("A Change!")
+	
 	
