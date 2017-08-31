@@ -1,13 +1,13 @@
 import random
-x=random.randint(1, 10)
-loop=True
+xx=random.randint(1, 10)
+loopy=True
 
-while(loop==True):
+while(loopy==True):
 	guess=input("Guess integer between 1 and 10: ")
-	if int(guess) == x:
-		print("Correct! it was "+str(x))
-		loop=False
-	elif int(guess) > x:
+	if int(guess) == xx:
+		print("Correct! it was "+str(xx))
+		loopy=False
+	elif int(guess) > xx:
 		print("Incorrect, Your guess is too high. Try again...")
 	else:
 		print("Incorrect, Your guess is too low. Try again.")
