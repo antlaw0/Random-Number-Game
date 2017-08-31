@@ -14,5 +14,9 @@ while(loop==True):
 
 		#we're changing something
 	print("A Change!")
+
+	#second change
+
+	print("Another change!")
 	
 	
